@@ -18,7 +18,7 @@ root@cluster1-master1:~# kubectl get nodes
 You should be connected as `root@cluster1-master1`. You can connect to other worker nodes using root, like ssh `root@cluster1-worker1`
 If you want to destroy the environment again run `./down.sh`. You should destroy the environment after usage so no more resources are used!
 
-
+If you want to update kubelet and kubeadm version you have to change `install-master.sh` and `install-kube.sh`.
 
 ### Resources on RHEL 7.8
 
