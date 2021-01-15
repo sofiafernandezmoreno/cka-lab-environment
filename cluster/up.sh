@@ -15,3 +15,11 @@ chmod 400 certs/id_rsa
 sleep 20
 
 echo '######################## ALL DONE ########################'
+
+
+echo '##########################  START CLUSTER MASTER 1  ################################'
+
+
+/home/sofia/.local/bin/vagrant ssh cluster1-master1                    
+
+sudo -i
